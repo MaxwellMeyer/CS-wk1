@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 
-
 namespace BakedGoods.Models
 {
   public class Pastry
@@ -20,9 +19,6 @@ namespace BakedGoods.Models
       }
     }
   }
-
-
-
   public class Bread
   {
     public int PriceOfBread { get; set; }
@@ -41,6 +37,3 @@ namespace BakedGoods.Models
     }
   }
 }
-
-
-
