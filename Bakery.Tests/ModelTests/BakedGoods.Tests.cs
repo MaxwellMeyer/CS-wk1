@@ -20,5 +20,15 @@ namespace BakedGoods.Tests
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
 
+    [TestMethod]
+    public void PastryCost_DeterminesRegPrice_Int()
+    {
+      int amount = 1;
+      int willCost = 2;
+      var pastryOrder = new Pastry();
+      pastryOrder.PastryCost(amount);
+      Assert.AreEqual(willCost, pastryOrder.PriceOfPastry);
+    }
+
   }
 }
