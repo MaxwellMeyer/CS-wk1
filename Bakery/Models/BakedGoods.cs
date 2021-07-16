@@ -8,10 +8,20 @@ namespace BakedGoods.Models
     public int PriceOfPastry { get; set; }
     public void PastryCost(int amount)
     {
-
-      PriceOfPastry = (amount * 2);
+      if (amount >= 3)
+      {
+        int dealNum = (amount / 3);
+        int singleNum = (amount % 3);
+        PriceOfPastry = (dealNum * 5) + (singleNum * 2);
+      }
+      else
+      {
+        PriceOfPastry = (amount * 2);
+      }
     }
   }
+
+
 
   public class Bread
   {
@@ -23,3 +33,6 @@ namespace BakedGoods.Models
     }
   }
 }
+
+
+
