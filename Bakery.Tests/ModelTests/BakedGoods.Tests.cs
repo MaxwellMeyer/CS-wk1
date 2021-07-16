@@ -39,6 +39,14 @@ namespace BakedGoods.Tests
       breadOrder.BreadCost(amount);
       Assert.AreEqual(willCost, breadOrder.PriceOfBread);
     }
-
+    [TestMethod]
+    public void PastryCost_PriceReflectingDiscount_Int()
+    {
+      int amount = 3;
+      int willCost = 5;
+      var pastryBulk = new Pastry();
+      pastryBulk.PastryCost(amount);
+      Assert.AreEqual(willCost, pastryBulk.PriceOfPastry);
+    }
   }
 }
