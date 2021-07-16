@@ -8,8 +8,9 @@ namespace BakedGoods
     public static void Main()
     {
       Greeting();
-      int bread = OrderSomeBread();
-      int pastry = OrderPastry();
+      int theBread = OrderSomeBread();
+      int thePastry = OrderPastry();
+      Receipt(theBread, thePastry);
 
     }
 
@@ -97,6 +98,19 @@ namespace BakedGoods
       pastryOrder.PastryCost(pastries);
       int pastryTotal = pastryOrder.PriceOfPastry;
       return pastryTotal;
+    }
+    public static void Receipt(int breadTotal, int pastryTotal)
+    {
+      Console.WriteLine("Thanks for stopping by!");
+      Console.WriteLine("Your order total will be: $" + breadTotal + pastryTotal);
+      Console.WriteLine("We hope you enjoy these DELICIOUS TREATS!!!");
+      Console.WriteLine("Have a SWEET day!!!");
+      Console.WriteLine("           (          ");
+      Console.WriteLine("           )          ");
+      Console.WriteLine("      __..---..__     ");
+      Console.WriteLine("  ,-='  /  |  /  `=-. ");
+      Console.WriteLine(" :--..___________..--;");
+      Console.WriteLine("  (,,_____________,./ ");
     }
 
 
