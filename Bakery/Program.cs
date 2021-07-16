@@ -8,6 +8,8 @@ namespace BakedGoods
     public static void Main()
     {
       Greeting();
+      int bread = OrderSomeBread();
+      int pastry = OrderPastry();
 
     }
 
@@ -21,7 +23,6 @@ namespace BakedGoods
       Console.WriteLine("(  '   ) / ");
       Console.WriteLine(" |.  '| /");
       Console.WriteLine(" |____|/");
-
       Console.WriteLine("     ____                                    ?~~bL");
       Console.WriteLine("    z@~ b                                    |  `U,");
       Console.WriteLine("   ]@[  |                                   ]'   z@'");
@@ -37,7 +38,6 @@ namespace BakedGoods
       Console.WriteLine("              *~~@@@@@bz_    _a@@@@z___a@K");
       Console.WriteLine("                   ~-@@@@@@@@@@@@@@@@@@~");
       Console.WriteLine("                    `~~~-@~~-@@~~~~~'");
-
       Console.WriteLine("                          (             )                           ");
       Console.WriteLine("                  )      (*)           (*)      (                   ");
       Console.WriteLine("                 (*)      |             |      (*)                  ");
@@ -71,13 +71,34 @@ namespace BakedGoods
       Console.WriteLine("                           .,%%%%%%%,.                              ");
       Console.WriteLine("                      ,%%%%%%%%%%%%%%%%%%%,                         ");
       Console.WriteLine("          ---------------------------------------------             ");
-
       Console.WriteLine("We have a few specials to offer today!");
       Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
       Console.WriteLine("Pastries are $2 each, or 3 for $5!!");
       Console.WriteLine("and bread is $5 a loaf, or BUY 2 GET 1 FREE!!!");
       Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     }
+
+    public static int OrderSomeBread()
+    {
+      Bread breadOrder = new Bread();
+      Console.WriteLine("Please enter the amount of bread you would like to purchase:");
+      int loaves = int.Parse(Console.ReadLine());
+      Console.WriteLine("Got it! " + loaves + " loaf/loaves added to order!");
+      breadOrder.BreadCost(loaves);
+      int breadTotal = breadOrder.PriceOfBread;
+      return breadTotal;
+    }
+    public static int OrderPastry()
+    {
+      Pastry pastryOrder = new Pastry();
+      Console.WriteLine("Please enter the amount of pastry you would like to purchase:");
+      int pastries = int.Parse(Console.ReadLine());
+      Console.WriteLine("Got it! " + pastries + " pastries added to order!");
+      pastryOrder.PastryCost(pastries);
+      int pastryTotal = pastryOrder.PriceOfPastry;
+      return pastryTotal;
+    }
+
 
 
 
