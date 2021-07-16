@@ -30,5 +30,15 @@ namespace BakedGoods.Tests
       Assert.AreEqual(willCost, pastryOrder.PriceOfPastry);
     }
 
+    [TestMethod]
+    public void BreadCost_DeterminesRegPrice_Int()
+    {
+      int amount = 1;
+      int willCost = 5;
+      var breadOrder = new Bread();
+      breadOrder.BreadCost(amount);
+      Assert.AreEqual(willCost, breadOrder.PriceOfBread);
+    }
+
   }
 }
