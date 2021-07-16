@@ -8,4 +8,9 @@ namespace BakedGoods.Models
     public int PriceOfPastry { get; set; }
 
   }
+
+  public class Bread
+  {
+    public int PriceOfBread { get; set; }
+  }
 }
