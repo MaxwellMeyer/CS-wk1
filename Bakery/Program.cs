@@ -14,8 +14,6 @@ namespace BakedGoods
 
     public static void Greeting()
     {
-      Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-      Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
       Console.WriteLine("Hello and Welcome to Pierre's Bakery!!!");
       Console.WriteLine("  _______");
       Console.WriteLine(" /       )");
@@ -40,7 +38,39 @@ namespace BakedGoods
       Console.WriteLine("                   ~-@@@@@@@@@@@@@@@@@@~");
       Console.WriteLine("                    `~~~-@~~-@@~~~~~'");
 
-
+      Console.WriteLine("                          (             )                           ");
+      Console.WriteLine("                  )      (*)           (*)      (                   ");
+      Console.WriteLine("                 (*)      |             |      (*)                  ");
+      Console.WriteLine("                  |      |~|           |~|      |                   ");
+      Console.WriteLine("                 |~|     | |           | |     |~|                  ");
+      Console.WriteLine("                 | |     | |           | |     | |                  ");
+      Console.WriteLine("                ,| |a@@@@| |@@@@@@@@@@@| |@@@@a| |.                 ");
+      Console.WriteLine("           .,a@@@| |@@@@@| |@@@@@@@@@@@| |@@@@@| |@@@@a,.           ");
+      Console.WriteLine("         ,a@@@@@@| |@@@@@@@@@@@@.@@@@@@@@@@@@@@| |@@@@@@@a,         ");
+      Console.WriteLine("        a@@@@@@@@@@@@@@@@@@@@@' . `@@@@@@@@@@@@@@@@@@@@@@@@a        ");
+      Console.WriteLine("        ;`@@@@@@@@@@@@@@@@@@'   .   `@@@@@@@@@@@@@@@@@@@@@';        ");
+      Console.WriteLine("        ;@@@`@@@@@@@@@@@@@'     .     `@@@@@@@@@@@@@@@@'@@@;        ");
+      Console.WriteLine("        ;@@@;,.aaaaaaaaaa       .       aaaaa,,aaaaaaa,;@@@;        ");
+      Console.WriteLine("        ;;@;;;;@@@@@@@@;@      @.@      ;@@@;;;@@@@@@;;;;@@;        ");
+      Console.WriteLine("        ;;;;;;;@@@@;@@;;@    @@ . @@    ;;@;;;;@@;@@@;;;;;;;        ");
+      Console.WriteLine("        ;;;;;;;;@@;;;;;;;  @@   .   @@  ;;;;;;;;;;;@@;;;;@;;        ");
+      Console.WriteLine("        ;;;;;;;;;;;;;;;;;@@     .     @@;;;;;;;;;;;;;;;;@@a;        ");
+      Console.WriteLine("    ,%%%;;;;;;;;@;;;;;;;;       .       ;;;;;;;;;;;;;;;;@@;;%%%,    ");
+      Console.WriteLine(" .%%%%%%;;;;;;;a@;;;;;;;;     ,%%%,     ;;;;;;;;;;;;;;;;;;;;%%%%%%, ");
+      Console.WriteLine(".%%%%%%%;;;;;;;@@;;;;;;;;   ,%%%%%%%,   ;;;;;;;;;;;;;;;;;;;;%%%%%%%,");
+      Console.WriteLine("%%%%%%%%`;;;;;;;;;;;;;;;;  %%%%%%%%%%%  ;;;;;;;;;;;;;;;;;;;'%%%%%%%%");
+      Console.WriteLine("%%%%%%%%%%%%`;;;;;;;;;;;;,%%%%%%%%%%%%%,;;;;;;;;;;;;;;;'%%%%%%%%%%%%");
+      Console.WriteLine("`%%%%%%%%%%%%%%%%%,,,,,,,%%%%%%%%%%%%%%%,,,,,,,%%%%%%%%%%%%%%%%%%%%'");
+      Console.WriteLine("  `%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'  ");
+      Console.WriteLine("      `%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'      ");
+      Console.WriteLine("             $$$$$$$$$$$$$$`,,,,,,,,,'$$$$$$$$$$$$$$$$$             ");
+      Console.WriteLine("                            `%%%%%%%'                               ");
+      Console.WriteLine("                             `%%%%%'                                ");
+      Console.WriteLine("                               %%%                                  ");
+      Console.WriteLine("                              %%%%%                                 ");
+      Console.WriteLine("                           .,%%%%%%%,.                              ");
+      Console.WriteLine("                      ,%%%%%%%%%%%%%%%%%%%,                         ");
+      Console.WriteLine("          ---------------------------------------------             ");
 
       Console.WriteLine("We have a few specials to offer today!");
       Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
