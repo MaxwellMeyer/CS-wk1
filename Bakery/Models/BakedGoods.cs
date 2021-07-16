@@ -16,5 +16,10 @@ namespace BakedGoods.Models
   public class Bread
   {
     public int PriceOfBread { get; set; }
+    public void BreadCost(int amount)
+    {
+
+      PriceOfBread = (amount * 5);
+    }
   }
 }
