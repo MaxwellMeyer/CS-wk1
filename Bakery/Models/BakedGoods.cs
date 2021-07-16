@@ -28,8 +28,16 @@ namespace BakedGoods.Models
     public int PriceOfBread { get; set; }
     public void BreadCost(int amount)
     {
-
-      PriceOfBread = (amount * 5);
+      if (amount >= 3)
+      {
+        int dealNum = (amount / 3);
+        int singleNum = (amount % 3);
+        PriceOfBread = (dealNum * 10) + (singleNum * 5);
+      }
+      else
+      {
+        PriceOfBread = (amount * 5);
+      }
     }
   }
 }
