@@ -102,7 +102,7 @@ namespace BakedGoods
     public static void Receipt(int breadTotal, int pastryTotal)
     {
       Console.WriteLine("Thanks for stopping by!");
-      Console.WriteLine("Your order total will be: $" + breadTotal + pastryTotal);
+      Console.WriteLine("Your order total will be: $" + (breadTotal + pastryTotal));
       Console.WriteLine("We hope you enjoy these DELICIOUS TREATS!!!");
       Console.WriteLine("Have a SWEET day!!!");
       Console.WriteLine("           (          ");
@@ -112,10 +112,5 @@ namespace BakedGoods
       Console.WriteLine(" :--..___________..--;");
       Console.WriteLine("  (,,_____________,./ ");
     }
-
-
-
-
-
   }
 }
